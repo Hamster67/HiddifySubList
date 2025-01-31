@@ -1,16 +1,17 @@
 proxies:
-  - {name: "🇹🇼 TW", server: visa.cn, port: 80, type: vless, uuid: a380acf6-d2e4-4f8c-a0ff-473e0cfb432b, tls: false, skip-cert-verify: false, servername: ham67-hiddify-worker.chenalbert0507.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ham67-hiddify-worker.chenalbert0507.workers.dev}}}
-  - {name: "🇯🇵 JP", server: 36.151.192.198, port: 31071, type: trojan, password: QwwHvrnN, skip-cert-verify: false, udp: true}
+  - {name: "🇹🇼 TW 1", server: visa.cn, port: 80, type: vless, uuid: a380acf6-d2e4-4f8c-a0ff-473e0cfb432b, tls: false, skip-cert-verify: false, servername: ham67-hiddify-worker.chenalbert0507.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ham67-hiddify-worker.chenalbert0507.workers.dev}}}
+  - {name: "🇹🇼 TW 2", server: visa.cn, port: 80, type: vless, uuid: 8a2794b3-f2c1-4ebd-93db-90b0f7a4e192, tls: false, skip-cert-verify: false, servername: hiddify-sub-list.chenalbert0507.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: hiddify-sub-list.chenalbert0507.workers.dev}}}
+  - {name: "🇯🇵 JP 1", server: 36.151.192.198, port: 31071, type: trojan, password: QwwHvrnN, skip-cert-verify: false, udp: true}
   - {name: "🇯🇵 JP 2", server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: "🇯🇵 JP 3", server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: "🇭🇰 HK", server: 36.151.192.239, port: 42395, type: trojan, password: DNUMdmnJ, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 HK 1", server: 36.151.192.239, port: 42395, type: trojan, password: DNUMdmnJ, skip-cert-verify: false, udp: true}
   - {name: "🇭🇰 HK 2", server: 36.151.192.203, port: 25241, type: trojan, password: QwwHvrnN, skip-cert-verify: false, udp: true}
   - {name: "🇭🇰 HK 3", server: 74.119.193.103, port: 42658, type: ss, cipher: chacha20-ietf-poly1305, password: FU9HUAR4ZPMXV9Wh815b3FGPi2EOfqHTdv5aDV0ZVJN25OWzcLUTHmFlw28xLE9n, udp: true}
-  - {name: "🇸🇬 SG", server: 18.141.184.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "🇩🇪 DE", server: service.ouluyun9803.com, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
-  - {name: "🇺🇸 US", server: elma.ns.cloudflare.com, port: 2087, type: vmess, uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: elma.ns.cloudflare.com, network: grpc, grpc-opts: {grpc-service-name: /}}
+  - {name: "🇸🇬 SG 1", server: 18.141.184.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "🇩🇪 DE 1", server: service.ouluyun9803.com, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
+  - {name: "🇺🇸 US 1", server: elma.ns.cloudflare.com, port: 2087, type: vmess, uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: elma.ns.cloudflare.com, network: grpc, grpc-opts: {grpc-service-name: /}}
   - {name: "🇺🇸 US 2", server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: "🇺🇸 US 3", server: join.vpncustomize.com, port: 80, type: vless, uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/xmlrpc.php?ed=1080&id=dfc1a9ab-6241-4b73-92f7-b299fc6b7751#@SiNABiGO-TELEGRAM-@SiNABiGO\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0TELEGRAM-@SiNABiGO\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0TELEGRAM-@SiNABiGO\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0TELEGRAM-@SiNABiGO", headers: {Host: csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor.rubika.cloudns.ch.}}}  
   - {name: "🇺🇸 US 4", server: 104.26.0.215, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}, udp: true}
-  - {name: "🇱🇻 LV", server: 46.183.217.232, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: "🇮🇪 IE", server: 52.214.243.84, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, alpn: [http/1.1], skip-cert-verify: false}
+  - {name: "🇱🇻 LV 1", server: 46.183.217.232, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
+  - {name: "🇮🇪 IE 1", server: 52.214.243.84, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, alpn: [http/1.1], skip-cert-verify: false}
