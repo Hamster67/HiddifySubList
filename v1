@@ -1,7 +1,5 @@
 proxies:
-  - {name: "🇹🇼 TW", server: vpn.tkcy.cloudns.be, port: 443, type: vless, uuid: f48b0692-46bd-4180-bcf8-427981a05e02, tls: true, skip-cert-verify: false, servername: vpn.tkcy.cloudns.be, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vpn.tkcy.cloudns.be}}}
-  - {name: "🇹🇼 TW 2", server: 210.61.97.241, port: 81, type: trojan, password: ouo, sni: tr.koiok.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tr.koiok.us.kg}}, udp: true}
-  - {name: "🇹🇼 TW 3", server: visa.cn, port: 80, client-fingerprint: randomized, type: vless, uuid: 6b3d1016-ca46-4d49-9ad4-fda7d4b25b82, tls: false, skip-cert-verify: false, servername: hiddify-sub-list.chenalbert0507.workers.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: hiddify-sub-list.chenalbert0507.workers.dev}}}
+  - {name: "🇹🇼 TW", server: visa.cn, port: 80, type: vless, uuid: a380acf6-d2e4-4f8c-a0ff-473e0cfb432b, tls: false, skip-cert-verify: false, servername: ham67-hiddify-worker.chenalbert0507.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ham67-hiddify-worker.chenalbert0507.workers.dev}}}
   - {name: "🇯🇵 JP", server: 36.151.192.198, port: 31071, type: trojan, password: QwwHvrnN, skip-cert-verify: false, udp: true}
   - {name: "🇯🇵 JP 2", server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: "🇯🇵 JP 3", server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
