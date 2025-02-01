@@ -1,4 +1,4 @@
-# Hiddify Sub List
+# HiddifySubList
 ### 這是個透過社群的免費優選節點組合而成的節點列表，適用於Clash、Hiddify、Shadowrocket。
 
 ### [CM訂閱轉換服務](https://sub.fxxk.dedyn.io/)
