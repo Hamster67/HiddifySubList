@@ -1,0 +1,4 @@
+proxies:
+  - {name: "🇨🇳 CN", server: soonjp.soon.guru, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: ab8b625c-efb8-45cd-b509-c7cceabe0cc6, udp: true}
+  - {name: "🇨🇳 CN 2", server: 42.236.73.72, port: 443, type: trojan, password: fuck, sni: www.zitian.cn, alpn: [http/1.1], skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 CN 3", server: 183.236.51.23, port: 51704, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}

@@ -1,0 +1,2 @@
+proxies:
+  - {name: "測試 TW #1", server: www.visa.com.sg, port: 8880, type: vless, uuid: 5bce90fa-a83c-4ab9-1fdb-543d5c9a04cc, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: round-shadow-dfd3.chenalbert0507.workers.dev}}}
