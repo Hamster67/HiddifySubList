@@ -1,2 +1,1 @@
-proxies:
-  - {name: "測試 TW #1", server: www.visa.com.sg, port: 8880, type: vless, uuid: 5bce90fa-a83c-4ab9-1fdb-543d5c9a04cc, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: round-shadow-dfd3.chenalbert0507.workers.dev}}}
+vless://df2540d3-1922-410e-b816-006e6af6e0e4@visa.cn:80?encryption=none&security=&sni=ham67-hiddify-worker.chenalbert0507.workers.dev&fp=randomized&type=ws&host=ham67-hiddify-worker.chenalbert0507.workers.dev&path=%2F%3Fed%3D2560#🇹🇼 TW 1 [Beta]
