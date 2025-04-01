@@ -1,0 +1,2 @@
+proxies:
+  - {name: "🇺🇸 US 1", server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
